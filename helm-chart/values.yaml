@@ -23,7 +23,7 @@ cartsDb:
         name: carts-db
     image:
         pullPolicy: IfNotPresent
-        repository: index.docker.io/docker.io/mongo
+        repository: index.docker.io/mongo
         tag: 4.2.2
     replicaCount: 1
     service:
